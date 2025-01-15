@@ -1,0 +1,75 @@
+    1  pwd
+    2  ls -al
+    3  cd ..
+    4  ls -al
+    5  cd ..
+    6  ls
+    7  pwd
+    8  clear
+    9  ls -al
+   10  cd ~
+   11  ls
+   12  pw
+   13  pwd
+   14  ls -al
+   15  clear
+   16  cd workspaces/ds2002-pbd3rb
+   17  cd workspaces
+   18  cd /workspaces/
+   19  ls
+   20  cd ds2002-pbd3rb
+   21  touch file1.txt
+   22  ls
+   23  cat file1.txt
+   24  vim file1.txt
+   25  cat file1.txt 
+   26  cat file2.txt 
+   27  touch file2.txt
+   28  touch file3.txt
+   29  echo "quick brown fox"
+   30  echo "quick brown fox" > file1.txt
+   31  cat file1.txt
+   32  echo "quick brown fox" > file2.txt
+   33  echo "quick brown fox" > file3.txt
+   34  echo "jumps over the lazy dog" >> file2.txt 
+   35  cat file2
+   36  cat file2.txt 
+   37  clear
+   38  cat /dev/null > file3.txt
+   39  ls -al
+   40  mkdir files
+   41  mv file1.txt files/
+   42  mv files/file1.txt files/file11.txt
+   43  cd files/
+   44  ls
+   45  cd -
+   46  ls -al files/
+   47  touch file4.txt
+   48  touch file5.txt
+   49  cp file2.txt file6.txt
+   50  cp file3.txt file7.txt
+   51  ls -al
+   52  mv file*.txt /files/
+   53  mv file*.txt files/
+   54  ls -al
+   55  ls -al files/
+   56  rm files/file7.txt 
+   57  top
+   58  ps
+   59  ps aux
+   60  clear
+   61  ps aux > file6.txt
+   62  cat file6.txt 
+   63  ls -al
+   64  ls -al files/
+   65  head file6.txt 
+   66  clear
+   67  head -n 3 file6.txt 
+   68  tail -3 file6.txt 
+   69  tail -n 3 file6.txt 
+   70  history 
+   71  cle5r
+   72  clear
+   73  cd files
+   74  cat file5.txt | grep "clear"
+   75  history > file5.txt
